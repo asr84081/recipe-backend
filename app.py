@@ -18,7 +18,7 @@ celery = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])
 celery.conf.update(app.config)
 
 # Spoonacular API Key
-SPOONACULAR_API_KEY = "YOUR_SPOONACULAR_API_KEY"
+SPOONACULAR_API_KEY = "85cc451f54024c15992284fcac94f00c"
 SPOONACULAR_BASE_URL = "https://api.spoonacular.com"
 
 # Database Model (User Favorites & Expiring Items)
